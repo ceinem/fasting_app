@@ -1,0 +1,394 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F9A674E281D4FCC00A1D0C1 /* FastingAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9A673C281D4FCC00A1D0C1 /* FastingAppApp.swift */; };
+		1F9A674F281D4FCC00A1D0C1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9A673D281D4FCC00A1D0C1 /* ContentView.swift */; };
+		1F9A6750281D4FCC00A1D0C1 /* ScheduleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9A673E281D4FCC00A1D0C1 /* ScheduleView.swift */; };
+		1F9A6751281D4FCC00A1D0C1 /* ProgressRingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9A673F281D4FCC00A1D0C1 /* ProgressRingView.swift */; };
+		1F9A6752281D4FCC00A1D0C1 /* FastingScheduleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9A6740281D4FCC00A1D0C1 /* FastingScheduleViewModel.swift */; };
+		1F9A6753281D4FCC00A1D0C1 /* FastingWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9A6741281D4FCC00A1D0C1 /* FastingWindow.swift */; };
+		1F9A6754281D4FCC00A1D0C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F9A6742281D4FCC00A1D0C1 /* Assets.xcassets */; };
+		1F9A6755281D4FCC00A1D0C1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F9A6743281D4FCC00A1D0C1 /* Preview Assets.xcassets */; };
+		1F9A6801281D4F0000A1D0C1 /* FastingWindowStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9A6800281D4F0000A1D0C1 /* FastingWindowStore.swift */; };
+		1F9A6804281D4F3400A1D0C1 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9A6803281D4F3400A1D0C1 /* HistoryView.swift */; };
+		1F9A6807281D4F6500A1D0C1 /* FastingRegimen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9A6806281D4F6500A1D0C1 /* FastingRegimen.swift */; };
+		1F9A6809281D4F9A00A1D0C1 /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9A6808281D4F9A00A1D0C1 /* SettingsViewModel.swift */; };
+		1F9A680B281D4FCF00A1D0C1 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9A680A281D4FCF00A1D0C1 /* SettingsView.swift */; };
+		1F9A680D281D509D00A1D0C1 /* FastingWindowEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9A680C281D509D00A1D0C1 /* FastingWindowEditorView.swift */; };
+		B2F5C5DA2C8F0A7F00A1D0C1 /* NotificationScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F5C5D92C8F0A7F00A1D0C1 /* NotificationScheduler.swift */; };
+		B2F5C5DC2C8F0A7F00A1D0C1 /* NotificationPreferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F5C5DB2C8F0A7F00A1D0C1 /* NotificationPreferences.swift */; };
+		B2F5C5DF2C8F0A7F00A1D0C1 /* SQLiteDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F5C5DE2C8F0A7F00A1D0C1 /* SQLiteDocument.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1F9A6735281D4FCC00A1D0C1 /* FastingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FastingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F9A673C281D4FCC00A1D0C1 /* FastingAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FastingAppApp.swift; sourceTree = "<group>"; };
+		1F9A673D281D4FCC00A1D0C1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1F9A673E281D4FCC00A1D0C1 /* ScheduleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleView.swift; sourceTree = "<group>"; };
+		1F9A673F281D4FCC00A1D0C1 /* ProgressRingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressRingView.swift; sourceTree = "<group>"; };
+		1F9A6740281D4FCC00A1D0C1 /* FastingScheduleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FastingScheduleViewModel.swift; sourceTree = "<group>"; };
+		1F9A6741281D4FCC00A1D0C1 /* FastingWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FastingWindow.swift; sourceTree = "<group>"; };
+		1F9A6742281D4FCC00A1D0C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1F9A6743281D4FCC00A1D0C1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1F9A6744281D4FCC00A1D0C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F9A6800281D4F0000A1D0C1 /* FastingWindowStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FastingWindowStore.swift; sourceTree = "<group>"; };
+		1F9A6803281D4F3400A1D0C1 /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		1F9A6806281D4F6500A1D0C1 /* FastingRegimen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FastingRegimen.swift; sourceTree = "<group>"; };
+		1F9A6808281D4F9A00A1D0C1 /* SettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewModel.swift; sourceTree = "<group>"; };
+		1F9A680A281D4FCF00A1D0C1 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		1F9A680C281D509D00A1D0C1 /* FastingWindowEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FastingWindowEditorView.swift; sourceTree = "<group>"; };
+		B2F5C5D92C8F0A7F00A1D0C1 /* NotificationScheduler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationScheduler.swift; sourceTree = "<group>"; };
+		B2F5C5DB2C8F0A7F00A1D0C1 /* NotificationPreferences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationPreferences.swift; sourceTree = "<group>"; };
+		B2F5C5DE2C8F0A7F00A1D0C1 /* SQLiteDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQLiteDocument.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1F9A6733281D4FCC00A1D0C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F9A6745281D4FCC00A1D0C1 = {
+			isa = PBXGroup;
+			children = (
+				1F9A6748281D4FCC00A1D0C1 /* FastingApp */,
+				1F9A6747281D4FCC00A1D0C1 /* Frameworks */,
+				1F9A6746281D4FCC00A1D0C1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1F9A6746281D4FCC00A1D0C1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1F9A6735281D4FCC00A1D0C1 /* FastingApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1F9A6747281D4FCC00A1D0C1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1F9A6748281D4FCC00A1D0C1 /* FastingApp */ = {
+			isa = PBXGroup;
+			children = (
+				1F9A673C281D4FCC00A1D0C1 /* FastingAppApp.swift */,
+				1F9A674B281D4FCC00A1D0C1 /* Views */,
+				1F9A674A281D4FCC00A1D0C1 /* ViewModels */,
+				1F9A6749281D4FCC00A1D0C1 /* Models */,
+				1F9A6802281D4F0000A1D0C1 /* Persistence */,
+				B2F5C5DD2C8F0A7F00A1D0C1 /* Services */,
+				1F9A674C281D4FCC00A1D0C1 /* Resources */,
+			);
+			path = FastingApp;
+			sourceTree = "<group>";
+		};
+		1F9A6749281D4FCC00A1D0C1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1F9A6741281D4FCC00A1D0C1 /* FastingWindow.swift */,
+				1F9A6806281D4F6500A1D0C1 /* FastingRegimen.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1F9A6802281D4F0000A1D0C1 /* Persistence */ = {
+			isa = PBXGroup;
+			children = (
+				1F9A6800281D4F0000A1D0C1 /* FastingWindowStore.swift */,
+			);
+			path = Persistence;
+			sourceTree = "<group>";
+		};
+		1F9A674A281D4FCC00A1D0C1 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				1F9A6740281D4FCC00A1D0C1 /* FastingScheduleViewModel.swift */,
+				1F9A6808281D4F9A00A1D0C1 /* SettingsViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		1F9A674B281D4FCC00A1D0C1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1F9A673D281D4FCC00A1D0C1 /* ContentView.swift */,
+				1F9A673E281D4FCC00A1D0C1 /* ScheduleView.swift */,
+				1F9A673F281D4FCC00A1D0C1 /* ProgressRingView.swift */,
+				1F9A6803281D4F3400A1D0C1 /* HistoryView.swift */,
+				1F9A680A281D4FCF00A1D0C1 /* SettingsView.swift */,
+				1F9A680C281D509D00A1D0C1 /* FastingWindowEditorView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1F9A674C281D4FCC00A1D0C1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1F9A6742281D4FCC00A1D0C1 /* Assets.xcassets */,
+				1F9A674D281D4FCC00A1D0C1 /* Preview Content */,
+				1F9A6744281D4FCC00A1D0C1 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B2F5C5DD2C8F0A7F00A1D0C1 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				B2F5C5D92C8F0A7F00A1D0C1 /* NotificationScheduler.swift */,
+				B2F5C5DB2C8F0A7F00A1D0C1 /* NotificationPreferences.swift */,
+				B2F5C5DE2C8F0A7F00A1D0C1 /* SQLiteDocument.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		1F9A674D281D4FCC00A1D0C1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1F9A6743281D4FCC00A1D0C1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1F9A6731281D4FCC00A1D0C1 /* FastingApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F9A6737281D4FCC00A1D0C1 /* Build configuration list for PBXNativeTarget "FastingApp" */;
+			buildPhases = (
+				1F9A6732281D4FCC00A1D0C1 /* Sources */,
+				1F9A6733281D4FCC00A1D0C1 /* Frameworks */,
+				1F9A6734281D4FCC00A1D0C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FastingApp;
+			productName = FastingApp;
+			productReference = 1F9A6735281D4FCC00A1D0C1 /* FastingApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1F9A6730281D4FCC00A1D0C1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					1F9A6731281D4FCC00A1D0C1 = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 1F9A6736281D4FCC00A1D0C1 /* Build configuration list for PBXProject "FastingApp" */;
+			compatibilityVersion = "Xcode 15.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1F9A6745281D4FCC00A1D0C1;
+			productRefGroup = 1F9A6746281D4FCC00A1D0C1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1F9A6731281D4FCC00A1D0C1 /* FastingApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1F9A6734281D4FCC00A1D0C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F9A6755281D4FCC00A1D0C1 /* Preview Assets.xcassets in Resources */,
+				1F9A6754281D4FCC00A1D0C1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F9A6732281D4FCC00A1D0C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2F5C5DC2C8F0A7F00A1D0C1 /* NotificationPreferences.swift in Sources */,
+				1F9A6807281D4F6500A1D0C1 /* FastingRegimen.swift in Sources */,
+				1F9A680B281D4FCF00A1D0C1 /* SettingsView.swift in Sources */,
+				1F9A6809281D4F9A00A1D0C1 /* SettingsViewModel.swift in Sources */,
+				1F9A6804281D4F3400A1D0C1 /* HistoryView.swift in Sources */,
+				1F9A680D281D509D00A1D0C1 /* FastingWindowEditorView.swift in Sources */,
+				1F9A6801281D4F0000A1D0C1 /* FastingWindowStore.swift in Sources */,
+				B2F5C5DF2C8F0A7F00A1D0C1 /* SQLiteDocument.swift in Sources */,
+				B2F5C5DA2C8F0A7F00A1D0C1 /* NotificationScheduler.swift in Sources */,
+				1F9A6753281D4FCC00A1D0C1 /* FastingWindow.swift in Sources */,
+				1F9A6752281D4FCC00A1D0C1 /* FastingScheduleViewModel.swift in Sources */,
+				1F9A6751281D4FCC00A1D0C1 /* ProgressRingView.swift in Sources */,
+				1F9A6750281D4FCC00A1D0C1 /* ScheduleView.swift in Sources */,
+				1F9A674F281D4FCC00A1D0C1 /* ContentView.swift in Sources */,
+				1F9A674E281D4FCC00A1D0C1 /* FastingAppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1F9A6738281D4FCC00A1D0C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_TESTABILITY = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = FastingApp/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.FastingApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1F9A6739281D4FCC00A1D0C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = FastingApp/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.FastingApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1F9A673A281D4FCC00A1D0C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7AXQ399T48;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = FastingApp/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cornelius.fasting;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_INTERFACE_STYLE = Automatic;
+			};
+			name = Debug;
+		};
+		1F9A673B281D4FCC00A1D0C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7AXQ399T48;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = FastingApp/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cornelius.fasting;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_INTERFACE_STYLE = Automatic;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1F9A6736281D4FCC00A1D0C1 /* Build configuration list for PBXProject "FastingApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F9A6738281D4FCC00A1D0C1 /* Debug */,
+				1F9A6739281D4FCC00A1D0C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F9A6737281D4FCC00A1D0C1 /* Build configuration list for PBXNativeTarget "FastingApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F9A673A281D4FCC00A1D0C1 /* Debug */,
+				1F9A673B281D4FCC00A1D0C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1F9A6730281D4FCC00A1D0C1 /* Project object */;
+}
