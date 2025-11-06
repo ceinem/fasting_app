@@ -1,0 +1,13 @@
+<svg width="1024" height="1024" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title">
+  <title id="title">Fasting App Icon</title>
+  <rect width="256" height="256" rx="52" fill="#FFFFFF"/>
+  <rect x="112" y="30" width="32" height="22" rx="11" fill="#52A27B"/>
+  <circle cx="128" cy="144" r="90" fill="none" stroke="#52A27B" stroke-width="20" stroke-linecap="round"/>
+  <path d="M198 84c16 15 26 36.4 26 60 0 49.7-40.3 90-90 90-23.6 0-45-9.2-61-24.2" fill="none" stroke="#52A27B" stroke-width="18" stroke-linecap="round" stroke-linejoin="round" opacity="0.35"/>
+  <path d="M128 70c-38.7 0-70 31.3-70 70 0 10.2 2.1 20 6.1 28.9" fill="none" stroke="#52A27B" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+  <g fill="#52A27B">
+    <rect x="108" y="100" width="10" height="60" rx="4"/>
+    <rect x="122" y="100" width="10" height="60" rx="4"/>
+    <path d="M150 100c-8.3 0-15 6.7-15 15v28c0 8.3 6.7 15 15 15s15-6.7 15-15v-28c0-8.3-6.7-15-15-15zm0 12c2 0 3.5 1.6 3.5 3.5v28c0 1.9-1.6 3.5-3.5 3.5s-3.5-1.6-3.5-3.5v-28c0-1.9 1.6-3.5 3.5-3.5z"/>
+  </g>
+</svg>
